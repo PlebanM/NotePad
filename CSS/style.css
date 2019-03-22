@@ -1,0 +1,28 @@
+.important{
+    border-color: red !important;
+    width: 33%;
+
+}
+.less-important {
+    border-color: #00de00 !important;
+    width: 33%;
+}
+.not-important {
+    border-color: #faf500 !important;
+    width: 33%;
+}
+
+.inputBox {
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: #cecece;}
+}
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: #cecece;}
+}
